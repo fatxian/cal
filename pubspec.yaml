@@ -1,0 +1,35 @@
+name: calendar_app
+description: "Cal, a personal calendar and energy reflection app."
+publish_to: 'none'
+version: 0.1.0+2
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  drift: ^2.31.0
+  extension_google_sign_in_as_googleapis_auth: ^3.0.0
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^20.1.0
+  flutter_timezone: ^5.1.0
+  google_sign_in: ^7.2.0
+  googleapis: ^16.0.0
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  share_plus: ^12.0.2
+  sqlite3_flutter_libs: ^0.5.42
+  timezone: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  drift_dev: ^2.31.0
+  build_runner: ^2.15.0
+  sqlite3: ^2.9.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
